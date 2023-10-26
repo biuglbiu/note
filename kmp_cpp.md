@@ -1,5 +1,5 @@
 
-###buildpartialMatchTable
+### buildpartialMatchTable
 
   *用于构建 next 数组 计算第i个字符的最长前后缀长度但不包括从0-i的本身这个字符串长度*
   
@@ -7,7 +7,7 @@
   
   *如果next数组当前位置j=3指向next数组的2，则当我们主串和next数组对应的匹配串不符时，令j=next[j-1],这样j=1,从匹配串来说abab的最后一个b不匹配，那么我们就回退到上一个匹配字符a(此时j=2)的最长匹配前缀(即第一个a(j=0))的下一个字符(第一个b(j=1))开始匹配*
 
-###strStr
+### strStr
 
   1.先构建子匹配串的next数组
   
