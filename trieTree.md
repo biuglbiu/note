@@ -12,6 +12,7 @@ private:
             }
             node = node->children[ch];
         }
+        return node;
     }
 public:
     Trie(): children(26),isEnd(false){}
